@@ -6,9 +6,10 @@ import time
 print("Loading image...")
 
 files = [
-    "/datasets/brighton2/images/DJI_0018.JPG",
-    "/datasets/brighton2/images/DJI_0019.JPG",
+    "./data/1341846313.822075.png",
+    "./data/1341846313.853928.png",
 ]
+
 config = {
     'sift_peak_threshold': 0.1,
     'sift_edge_threshold': 10.0,
